@@ -32,7 +32,7 @@ function Home() {
   let interval;
 
   const startTimer = () => {
-    const countDownDate = new Date("july 24,2023").getTime();
+    const countDownDate = new Date("feb 28,2024").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();

@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {configureStore} from "@reduxjs/toolkit";
-import {Provider} from "react-redux"
+import {configureStore} from "@reduxjs/toolkit";  
 import cartreducer from "./reducers/cartreducer";
 import ProReducer from "./reducers/Productreducer";
 import 'react-toastify/dist/ReactToastify.css';
+import { Provider } from 'react-redux';
 
 
 

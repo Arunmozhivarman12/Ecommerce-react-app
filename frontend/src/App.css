@@ -11,6 +11,13 @@
 
 }
 
+.head{
+  position: -webkit-sticky;
+  position: sticky;
+ top: 0;
+  z-index: 100 !important;
+}
+
 @media screen and (max-width:990px){
   .black{
     max-width: 754px !important;

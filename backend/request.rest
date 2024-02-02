@@ -1,5 +1,5 @@
 GET http://localhost:8000/proute
-Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0OWQ2ODUzZjQxM2YxYzhiZmFiYTYxZiIsImlhdCI6MTY4ODAzODI1NX0.gSAWVLWBG7GfiaXa0AHGhSyocDpHTtSBrY2yWPzbAvA
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MmMxOTRhMWYzMTVhOGY1MTRmNjlmZCIsImlhdCI6MTY5NzM4ODg4NH0.Zj_OWDjv7EM6visLbLsEHgn-PA4bE-TYfi55cNvoT18
 ###
 
 POST http://localhost:8000/signin
@@ -8,7 +8,7 @@ Content-Type: application/json
 {
     "name":"arun",
     "password":"arunakil1234",
-    "email":"arunakil12@gmail.com"
+    "email":"arunakil1@gmail.com"
 }
 
 ###
@@ -18,7 +18,7 @@ POST http://localhost:8000/login
 Content-Type: application/json
 
 {
-    "email":"arunakil12@gmail.com",
+    "email":"arunakil1@gmail.com",
     "password":"arunakil1234"
 }
 

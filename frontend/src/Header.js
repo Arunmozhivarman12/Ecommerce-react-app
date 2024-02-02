@@ -66,7 +66,7 @@ function carttocheck (){
 }
 
     return(
-        <div>
+        <div className="head">
 <Container fluid className=" black1">
 <Container className=" text-white ps-2 pe-2 pt-2 pb-2  black" >
     <span>Free shipping, 30-day return or refund guarantee.</span> 
@@ -79,8 +79,8 @@ function carttocheck (){
    </span>
 </Container>
 </Container>
-
-    <Container  className="nb ps-2 pe-2">     
+<div className="bg-light">
+    <Container className="nb ps-2 pe-2" >     
    
 <Navbar  className="w-100 " expand="lg" >
         <Navbar.Brand className="me-0" ><img src={logo} alt='logo'/></Navbar.Brand>
@@ -150,6 +150,7 @@ function carttocheck (){
     </Navbar>
       
     </Container>
+    </div>
  
     </div>
     );

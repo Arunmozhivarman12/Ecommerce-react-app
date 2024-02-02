@@ -28,7 +28,7 @@ const Navigate = useNavigate();
                 const token = response.data.accessToken
 
                 localStorage.setItem('token',token);
-                Navigate('/')
+                Navigate('/checkout')
             } catch (error) {
                 if(error.response && error.response.status === 401){
                      const message =error.response.data
